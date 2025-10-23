@@ -1,0 +1,134 @@
+body {
+    background-color: #022873;
+    color: white;
+    font-family: "DM Sans", Helvetica, sans-serif;
+    padding: 20px;
+}
+#welcome {
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#welcomeheader {
+    color: #D4FF16;
+}
+container {
+    display: flex;
+}
+#menu {
+     color: #022873;
+     background-color: white;
+     width: 250px;
+     height: fit-content;
+     width: fit-content;
+     padding: 16px;
+     border-style: solid;
+     border-color: yellow;
+     border-radius: 16px;
+     margin-right: 20px;
+     }
+#aboutme{
+    color: #022873;
+    background-color: yellow;
+    padding: 40px;
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 16px;
+    }
+
+#headshot {
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 16px;
+    }
+h1,
+h2 {
+    margin: 0px;
+    font-family: "BBH Sans Bartle", sans-serif;
+    }
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+a {
+    font-weight: bold;
+}
+.pageheader {
+    background-color: #D4FF16;
+    color: #022873;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#jobs {
+    display: flex;
+    flex-direction: column;
+}
+.jobbox {
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: #D4FF16;
+    border-style: solid;
+    border-color: #022873
+    border-radius: 20px;
+    padding: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 12px;
+}
+.btn:hover {
+    background-color: white;
+    color: #022873;
+    border-style: solid;
+    border-color: #022873
+    border-radius: 20px;
+    padding: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 12px;
+}
+table {
+    border-style: solid;
+    border-color: #D4FF16;
+    padding: 12px;
+    border-collapse: collapse;
+}
+th {
+    border-style: solid;
+    border-color: white;
+    padding: 12px;
+    background-color: #D4FF16;
+    color: #022873;
+}
+td {
+    padding: 12px;
+    border-style: solid;
+    border-color: white;
+}
