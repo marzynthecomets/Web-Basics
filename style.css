@@ -19,6 +19,7 @@ body {
 }
 #flexible {
     display: flex;
+    flex-direction: row;
 }
 #menu {
      color: #022873;
