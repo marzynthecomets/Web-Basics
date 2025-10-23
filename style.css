@@ -17,7 +17,7 @@ body {
 #welcomeheader {
     color: #D4FF16;
 }
-container {
+#flexible {
     display: flex;
 }
 #menu {
@@ -38,7 +38,7 @@ container {
     padding: 40px;
     text-align: center;
     border-style: solid;
-    border-color: yellow;
+    border-color: white;
     border-radius: 16px;
     }
 
@@ -98,8 +98,9 @@ a {
 .btn {
     background-color: #D4FF16;
     border-style: solid;
-    border-color: #022873
-    border-radius: 20px;
+    border-color: #022873;
+    border-radius: 8px;
+    width: fit-content;
     padding: 12px;
     font-family: "DM Sans", sans-serif;
     margin-top: 12px;
@@ -108,8 +109,8 @@ a {
     background-color: white;
     color: #022873;
     border-style: solid;
-    border-color: #022873
-    border-radius: 20px;
+    border-color: #022873;
+    border-radius: 8px;
     padding: 12px;
     font-family: "DM Sans", sans-serif;
     margin-top: 12px;
